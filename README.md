@@ -64,3 +64,14 @@ Benchmarking and Profiling:
 
 Regularly benchmark the system to identify bottlenecks and optimize performance.
 Profile the code to pinpoint and resolve performance issues.
+
+
+To run the project :
+
+Download the project and go to the folder where the sbt is :
+
+To run parallel web scraper :
+sbt "runMain ParallelWebScraper"
+
+To run sequntial web scraper :
+sbt "runMain SequentialWebScraper"
