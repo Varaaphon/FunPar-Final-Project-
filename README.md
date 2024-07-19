@@ -5,7 +5,6 @@ Project Description: SPWS - Scala Parallel Web Scraper
 The Scala Parallel Web Scraper (SPWS) is a project I've been working on to fetch, process, and 
 categorize research articles from academic journals or repositories using web scraping techniques. 
 The idea is to use functional and parallel programming concepts to efficiently gather and analyze data. 
-For this project, I've chosen tools like Akka for concurrency, Jsoup for web scraping, and Apache Spark for data processing.
 
  # Concept of Functional and Parallel Programming applied : 
 
@@ -21,13 +20,9 @@ Pattern Matching: Used extensively for data extraction and branching logic.
 
 Parallel Programming:
 
-Akka Actors: Handled multiple tasks in parallel without explicit thread management.
-
 Parallel Collections: Allowed data processing in parallel with minimal code changes.
 
 Future and Promise: Managed asynchronous computations effectively.
-
-Spark: Enabled scalable, large-scale data processing across multiple nodes.
 
 # How to Evaluate the Project
 To determine the success of the project, I will consider the following evaluation criteria:
@@ -50,10 +45,6 @@ Test the ability to handle multiple sources and larger datasets concurrently.
 # How to Increase Efficiency and Runtime of the Project
 To improve the efficiency and runtime of the project, I plan to:
 
-Improve Concurrency:
-
-Fine-tune Akka actor settings to optimize message passing and processing.
-Utilize futures and promises effectively to handle asynchronous tasks.
 
 Enhance Web Scraping Logic:
 
@@ -65,13 +56,12 @@ Benchmarking and Profiling:
 Regularly benchmark the system to identify bottlenecks and optimize performance.
 Profile the code to pinpoint and resolve performance issues.
 
+# To run the project :
+# Download and unzip the SPWS folder 
+# To run the parallel version : sbt "runMain ParallelWebScraper"  
+# To run the sequential version : sbt "runMain SequentialWebScraper"
+# Test the performance between the two version : sbt "runMain Benchmark" 
 
-To run the project :
 
-Download the project and go to the folder where the sbt is :
 
-To run parallel web scraper :
-sbt "runMain ParallelWebScraper"
 
-To run sequntial web scraper :
-sbt "runMain SequentialWebScraper"
