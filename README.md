@@ -65,6 +65,6 @@ To run the sequential version : sbt "runMain SequentialWebScraper"
 
 Test the performance between the two version : sbt "runMain Benchmark" 
 
-
+if you are using "input.txt" please switch to "input2.txt"
 
 
