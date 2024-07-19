@@ -6,7 +6,7 @@ The Scala Parallel Web Scraper (SPWS) is a project I've been working on to fetch
 categorize research articles from academic journals or repositories using web scraping techniques. 
 The idea is to use functional and parallel programming concepts to efficiently gather and analyze data. 
 
- # Concept of Functional and Parallel Programming applied : 
+ # Concept of Functional & Parallel Programming applied : 
 
 Functional Programming:
 
@@ -57,10 +57,10 @@ Regularly benchmark the system to identify bottlenecks and optimize performance.
 Profile the code to pinpoint and resolve performance issues.
 
 # To run the project :
-# Download and unzip the SPWS folder 
-# To run the parallel version : sbt "runMain ParallelWebScraper"  
-# To run the sequential version : sbt "runMain SequentialWebScraper"
-# Test the performance between the two version : sbt "runMain Benchmark" 
+Download and unzip the SPWS folder 
+To run the parallel version : sbt "runMain ParallelWebScraper"  
+To run the sequential version : sbt "runMain SequentialWebScraper"
+Test the performance between the two version : sbt "runMain Benchmark" 
 
 
 
