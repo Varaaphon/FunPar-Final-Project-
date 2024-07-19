@@ -58,8 +58,11 @@ Profile the code to pinpoint and resolve performance issues.
 
 # To run the project :
 Download and unzip the SPWS folder 
-To run the parallel version : sbt "runMain ParallelWebScraper"  
+
+To run the parallel version : sbt "runMain ParallelWebScraper"
+
 To run the sequential version : sbt "runMain SequentialWebScraper"
+
 Test the performance between the two version : sbt "runMain Benchmark" 
 
 
